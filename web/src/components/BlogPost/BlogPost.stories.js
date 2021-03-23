@@ -15,7 +15,7 @@ const POST = {
 }
 
 export const full = () => {
-  return <BlogPost post={POST} />
+  return <BlogPost post={POST} summary={false} />
 }
 
 export const summary = () => {
